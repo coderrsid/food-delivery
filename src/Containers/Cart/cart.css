@@ -1,0 +1,38 @@
+.foodCartStyle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    height: 50px;
+    margin: 20px 0px;
+    font-size: 1.15em;
+    align-items: center;
+    text-align: left;
+}
+.food-list {
+    position: relative;
+    box-sizing: border-box;
+}
+.button {
+    width: 10rem;
+    height: 3rem;
+    margin: 20px 10px;
+    background-color: #F8A22F;
+}
+
+.image {
+    width: 50px;
+    height: 50px;
+}
+.totalAmount {
+    position: absolute;
+    box-sizing: border-box;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #F8A22F;
+    color: black;
+}
